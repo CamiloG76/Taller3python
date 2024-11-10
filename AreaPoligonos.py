@@ -7,7 +7,7 @@ def area():
         return (base * altura) / 2
     elif poligono == "cuadrado":
         lado = float(input("ingrese el lado del cuadrado: "))
-        return lado * 2
+        return lado * lado
     elif poligono == "rectangulo":
         base = float(input("ingrese la base del rectangulo: "))
         altura = float(input("ingrese la altura del rectangulo: "))
