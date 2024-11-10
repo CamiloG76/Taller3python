@@ -7,7 +7,7 @@ def numArmstrong(n):
         return True
     else: 
         return False
-print(numArmstrong('22'))
+print(numArmstrong('8208'))
 
 
    
